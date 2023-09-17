@@ -1,8 +1,5 @@
 # The code generates validation.txt and train.txt files. Seperation of images is done randomly. You can specify val-train ratio.
 # So you can generate validation and train datasets for training an Artificial Neural Network
-
-import xml.etree.ElementTree as ET
-from bs4 import BeautifulSoup
 import os
 import cv2
 import random
